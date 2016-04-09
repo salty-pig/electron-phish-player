@@ -1,3 +1,7 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+{{!-- <h2 id="title">{{currentTrack.title}}</h2> --}}
+{{!-- {{#if currentTrack}} --}}
+    {{media-player track=currentTrack tracks=currentShow.tracks}}
+{{!-- {{/if}} --}}
+<div>
+    {{outlet}}
+</div>

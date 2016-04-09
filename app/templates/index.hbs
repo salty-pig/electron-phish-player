@@ -1,0 +1,5 @@
+<ul>
+{{#each model.data as |years|}}
+    <li>{{#link-to 'year' years}}{{years}}{{/link-to}}</li>
+{{/each}}
+</ul>

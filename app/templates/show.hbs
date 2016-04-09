@@ -1,0 +1,6 @@
+{{#link-to 'year' application.currentYear}}Back To Shows{{/link-to}}
+<ul>
+{{#each model.data.tracks as |track|}}
+    <li {{action 'playTrack' track}}>{{track.title}}</li>
+{{/each}}
+</ul>

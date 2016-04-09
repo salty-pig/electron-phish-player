@@ -2,7 +2,8 @@
   "predef": [
     "document",
     "window",
-    "-Promise"
+    "-Promise",
+    "Phish"
   ],
   "browser": true,
   "boss": true,

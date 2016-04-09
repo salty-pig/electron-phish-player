@@ -1,0 +1,6 @@
+{{#link-to 'index'}}Back to Years{{/link-to}}
+<ul>
+{{#each model.data as |shows|}}
+    <li>{{#link-to 'show' shows.id}}{{shows.date}}{{/link-to}}</li>
+{{/each}}
+</ul>
