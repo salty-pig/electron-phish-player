@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: electron-phish-player
+  annotations:
+    github.com/project-slug: salty-pig/electron-phish-player
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/guest
